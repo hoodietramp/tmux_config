@@ -1,6 +1,3 @@
-# This is my tmux config:
-
-
 ### Features: 
 1. Show VPN IP address in status bar when connected to VPN.
 2. Supports mouse functions. i.e. Mouse clicks can be used to switch splits, windows, sessions etc. Scrolling with mouse wheel activates copy mode and you can select using mouse cursor.
@@ -14,14 +11,8 @@ Update 24/01/2023:
 Potential TODO:
 - I believe my color choices can be boring at times, so feel free to send a PR if you have a better color scheme.
 
-### Screenshots:
-Default look with Tunnel and SSH scripts. Remove those if you think it's too messy.
+## holmes Tmux config Installation:
 
-![Screenshot](https://user-images.githubusercontent.com/54495695/214239102-7efff567-275a-479e-a737-a804008823a7.png)
-
----
-
-## Installation:
 - For clipboard to work, please install xclip as well.  
 ```bash 
 sudo apt install xclip
@@ -37,13 +28,21 @@ chmod +x ~/vpnIP_VM.sh
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
 - Then press `prefix + I` to install the plugins.
-.
 
 Refer to [tmux plugin manager](https://github.com/tmux-plugins/tpm) for more information.
 
+### Screenshots:
+Default look with Tunnel and SSH scripts. Remove those if you think it's too messy.
+
+![Screenshot](https://user-images.githubusercontent.com/54495695/214239102-7efff567-275a-479e-a737-a804008823a7.png)
+
+
+Updated tmux config look -
+
+![Screenshot](images/updated_holmes_tmux.png)
 ---
 
-# Updated Tmux and Vpn config Installation:
+## h00dy Tmux config Installation:
 
 ```bash
 git clone https://github.com/hoodietramp/tmux_config.git
@@ -67,7 +66,7 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 ### Screenshot: 
 
-![Screenshot](images/updated_tmux.png)
+![Screenshot](images/h00dy_tmux.png)
 
 ---
 
@@ -75,7 +74,7 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```bash
 alias tmux='tmux -u'
 ```
-> Don't forget to add this in your shell rc file.
+> Don't forget to add this in your shell rc file i.e. (~/.bashrc, ~/.zshrc).
 
 - If using arch, you can directly install icons-in-terminal
 
